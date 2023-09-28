@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Philip Levy Résumé
 ---
 
 # Philip Levy
@@ -12,9 +12,9 @@ I believe in the power of design thinking and doing as a positive force for the 
 
 ### Appian
 
-- 2021–now: Lead User Experience Designer
+- 2022–now: Lead User Experience Designer
 
-  - Oversee design work for group of 4 devleopment teams working on major strategic initiative and collaborate with group lead peers in product management and engineering to drive delivery
+  - Oversee design work across group of four product teams working on major strategic initiative, and collaborate with group lead peers in product management and engineering to drive delivery.
 
 ### Bixal
 
