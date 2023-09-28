@@ -4,7 +4,7 @@ title: Philip Levy Résumé
 
 # Philip Levy
 
-<philip.levy@hey.com> • [703-638-3812](tel:703-638-3812) • <https://pglevy.github.io/linkinbio/>
+<https://pglevy.github.io/linkinbio/>
 
 I believe in the power of design thinking and doing as a positive force for the healthy growth and continuous improvement of mission-driven organizations. I’m currently focused on expanding access to software design and development through low-code platform tools. I do this by improving the planning and execution of design activities and fostering an environment where designers are motivated, challenged, and happy about doing their best work.
 
