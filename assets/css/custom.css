@@ -1,26 +1,40 @@
-/* Add CSS rules to override Primer */
+:root,
+:host {
+  --pico-font-family-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --pico-font-family-sans-serif: "Atkinson Hyperlegible Next", system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--pico-font-family-emoji);
+  --pico-font-family-monospace: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, var(--pico-font-family-emoji);
+  --pico-font-family: var(--pico-font-family-sans-serif);
+}
 
-.markdown-body h1 {
-    border-bottom: 0;
+h1 {
     margin-bottom: 0;
 }
 
-.markdown-body h2 {
+h2 {
     border-top: 1px solid #d8dee4;
     border-bottom: 0;
     padding-top: 0.3em;
+    margin-top: 1.25rem;  
 }
 
-.markdown-body h3 {
-    margin-top: 1.5rem;
+h3 {
+    margin-top: 1.25rem;
     margin-bottom: 0;
 }
 
-.markdown-body li {
+li {
     margin-top: .5rem !important;
 }
 
+@media (min-width: 1024px) {
+    .container {
+        max-width: 700px;
+    }
+}
+
 @media print {
+    body { font-size: 90%; }
     h2, h3 { break-after: avoid; }
     ul { break-inside: avoid; }
+    .container { max-width: 100%; }
 }

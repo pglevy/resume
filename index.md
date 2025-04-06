@@ -6,7 +6,7 @@ title: Philip Levy Résumé
 
 Human-centered technology designer. [pglevy.github.io/linkinbio](https://pglevy.github.io/linkinbio/)
 
-I believe design thinking and iterative development promote the healthy growth and continuous improvement of mission-driven organizations. I’m currently focused on expanding access to software design and development through low-code tools. As a design leader, I work on improving the planning and execution of design activities and fostering an environment where designers are motivated, challenged, and excited to do their best work.
+Focused on leveraging AI-powered tech for human-centered design. Extensive enterprise UX experience, strong knowledge of software development life cycle, previous management and mentorship, design pairing with AI, continuous learning, always seeking interesting and challenging work.
 
 ## Experience
 

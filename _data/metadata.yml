@@ -1,8 +1,8 @@
 # Set the language for the site. Used for "html lang." Default is English.
-lang: en
+lang: en-US
 
 # Set a plain language title for the site.
 title: Philip Levy Résumé
 
 # Write a short description for the site. This is used for "meta description."
-description: Human-centered technology designer. Appian. Designer Sketches podcast. Lowcode Lounge.
+description: Human-centered technology designer.

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.data.metadata.lang | default: 'en' }}" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+<html lang="{{ site.data.metadata.lang | default: 'en-US' }}">
 
 <head>
   <meta charset="utf-8">
@@ -9,15 +9,17 @@
 
   <link rel="icon" href="favicon.ico" sizes="any">
 
-  <link rel="stylesheet" href="assets/css/primer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body class="{% if page.body-style %}{{ page.body-style }}{% else %}p-5{% endif %}">
-  <main class="{% if page.main-style %}{{ page.main-style }}{% else %}container-md markdown-body{% endif %}">
+<body>
+  <main class="container">
     {{ content }}
   </main>
-  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
