@@ -21,6 +21,7 @@ jobs:
 
       - name: Build HTML
         run: |
+          mkdir -p _site
           pandoc index.md \
             --from markdown \
             --to html5 \
