@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="{{ site.data.metadata.lang | default: 'en-US' }}">
+<html lang="$lang$">
 
 <head>
   <meta charset="utf-8">
-  <title>{{ site.data.metadata.title | default: 'Plain Vanilla GitHub Pages' }}</title>
-  <meta name="description" content="{{ site.data.metadata.description | default: 'Free, easy, low-tech website template using GitHub Pages' }}">
+  <title>$title$</title>
+  <meta name="description" content="$description$">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" href="favicon.ico" sizes="any">
@@ -18,7 +18,7 @@
 
 <body>
   <main class="container">
-    {{ content }}
+    $body$
   </main>
 </body>
 
