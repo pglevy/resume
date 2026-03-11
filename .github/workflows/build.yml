@@ -30,9 +30,7 @@ jobs:
             --output _site/index.html
 
       - name: Copy static assets
-        run: |
-          cp -r assets _site/
-          cp favicon.ico _site/
+        run: cp favicon.ico _site/
 
       - uses: actions/upload-pages-artifact@v3
         with:
