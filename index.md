@@ -1,7 +1,3 @@
----
-title: Philip Levy Résumé
----
-
 # Philip Levy
 
 Human-centered technology designer. [pglevy.github.io/linkinbio](https://pglevy.github.io/linkinbio/)

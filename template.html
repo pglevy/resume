@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="$lang$">
+
+<head>
+  <meta charset="utf-8">
+  <title>$title$</title>
+  <meta name="description" content="$description$">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+  <style>
+    :root,
+    :host {
+      --pico-font-family-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --pico-font-family-sans-serif: "Atkinson Hyperlegible Next", system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--pico-font-family-emoji);
+      --pico-font-family-monospace: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace, var(--pico-font-family-emoji);
+      --pico-font-family: var(--pico-font-family-sans-serif);
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        border-top: 1px solid #d8dee4;
+        border-bottom: 0;
+        padding-top: 0.3em;
+        margin-top: 1.25rem;
+    }
+
+    h3 {
+        margin-top: 1.25rem;
+        margin-bottom: 0;
+    }
+
+    li {
+        margin-top: .5rem !important;
+    }
+
+    @media (min-width: 1024px) {
+        .container {
+            max-width: 700px;
+        }
+    }
+
+    @media print {
+        body { font-size: 90%; }
+        h2, h3 { break-after: avoid; }
+        ul { break-inside: avoid; }
+        .container { max-width: 100%; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    $body$
+  </main>
+</body>
+
+</html>
